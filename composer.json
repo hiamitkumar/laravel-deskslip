@@ -1,5 +1,5 @@
 {
-  "name": "laravel/deskslip",
+  "name": "hiamitkumar/laravel-deskslip",
   "description": "The core package for Vedmarg ERP.",
   "type": "library",
   "autoload": {
@@ -13,7 +13,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Vedmarg\\Core\\LaravelDeskslipServiceProvider"
+        "LaravelDeskslip\\LaravelDeskslipServiceProvider"
       ]
     }
   },
