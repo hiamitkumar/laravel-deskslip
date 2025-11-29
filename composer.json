@@ -1,0 +1,22 @@
+{
+  "name": "laravel/deskslip",
+  "description": "The core package for Vedmarg ERP.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Vedmarg\\Core\\": "src/"
+    },
+    "files": [
+      "src/Helpers/helpers.php"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vedmarg\\Core\\LaravelDeskslipServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
