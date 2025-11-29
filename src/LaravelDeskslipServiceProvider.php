@@ -1,6 +1,6 @@
 <?php
 
-namespace Vedmarg\Core;
+namespace LaravelDeskslip;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -9,7 +9,7 @@ class LaravelDeskslipServiceProvider extends ServiceProvider
     public function register()
     {
         // Merge config
-        $this->mergeConfigFrom(__DIR__.'/../config/vedmarg.php', 'vedmarg');
+        $this->mergeConfigFrom(__DIR__.'/../config/deskslip.php', 'deskslip');
     }
 
     public function boot()
