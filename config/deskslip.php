@@ -1,4 +1,6 @@
-return [
-    'version' => '1.0.0',
-    'author' => 'hiamitkumar',
-];
+<?php
+
+    return [
+        'version' => '1.0.0',
+        'author' => 'hiamitkumar',
+    ];
